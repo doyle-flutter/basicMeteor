@@ -1,0 +1,20 @@
+# Meteor 미티어 JS
+
+### JS로 만드는 WEB APP DESKTOP(Flutter와 유사)
+
+- [x] Template 분리 및 호출 : [Code]() / 영상 ...준비중
+- [ ] DOM & BOM : Code ...준비중 / 영상 ...준비중
+- [ ] Statement : Code ...준비중 / 영상 ...준비중
+- [ ] HTTP / Socket : Code ...준비중 / 영상 ...준비중
+- [ ] API(s) : Code ...준비중 / 영상 ...준비중
+- [ ] Func(s) : Code ...준비중 / 영상 ...준비중
+- [ ] Build & Deploy
+  - WEB - Galaxy Hosting
+    - [ ] Svelte & Meteor : Code ...준비중 / 영상 ...준비중
+    - [ ] React & Meteor : Code ...준비중 / 영상 ...준비중
+    - [ ] Vue & Meteor : Code ...준비중 / 영상 ...준비중
+  - APP 
+    - [ ] Android & IOS
+  - DESKTOP 
+    - [ ] Electron & Meteor Code ...준비중 / 영상 ...준비중
+- [ ] Demo : Code ...준비중 / 영상 ...준비중
