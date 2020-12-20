@@ -7,7 +7,7 @@
 - [ ] Build & Deploy
   - WEB - Galaxy Hosting
     - [ ] Basic Blaze
-      - [x] Template 분리 및 호출 : [Code]() / 영상 ...준비중
+      - [x] Template 분리 및 호출 : [Code](https://github.com/doyle-flutter/basicMeteor/blob/main/client/temp.html) / 영상 ...준비중
       - [ ] DOM & BOM : Code ...준비중 / 영상 ...준비중
       - [ ] Statement : Code ...준비중 / 영상 ...준비중
     - [ ] Svelte & Meteor : Code ...준비중 / 영상 ...준비중
