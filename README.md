@@ -8,11 +8,12 @@
 - [ ] Func(s) : Code ...준비중 / 영상 ...준비중
 - [ ] Build & Deploy
   - WEB - Galaxy Hosting
-    - [ ] Basic Blaze
-      - [x] Template(HTML, CSS, JS) 분리 및 호출 : [Code](https://github.com/doyle-flutter/basicMeteor/blob/main/client/temp.html) / 영상 ...준비중
-      - [x] DOM & BOM : Code ...준비중 / 영상 ...준비중
-      - [x] Statement : Code ...준비중 / 영상 ...준비중
-      - [ ] Router : Code ...준비중 / 영상 ...준비중
+    - [ ] Basic Blaze / 영상 ...준비중
+      - [x] Template(HTML, CSS, JS) 분리 및 호출 : [Code](https://github.com/doyle-flutter/basicMeteor/blob/main/client/temp.html)
+      - [x] DOM & BOM : [Code](https://github.com/doyle-flutter/basicMeteor/blob/main/client/temp.html)
+      - [x] Statement : [Code](https://github.com/doyle-flutter/basicMeteor/blob/main/client/main.js)
+      - [x] Router - Custom : [Code]()
+      - [ ] Router - Flow Router Package(CSR / SSR-not yet!) : Code ...준비중 
     - [ ] Svelte & Meteor : Code ...준비중 / 영상 ...준비중
     - [ ] React & Meteor : Code ...준비중 / 영상 ...준비중
     - [ ] Vue & Meteor : Code ...준비중 / 영상 ...준비중

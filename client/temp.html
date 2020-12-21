@@ -3,7 +3,10 @@
 <template name="myTemp">
     <div class="myTemp">
         <h2>Hi! Jamesss Dev!</h2>
-        <p><a href="http://192.168.0.3:3000/pageTwo.html">Move Page</a></p>
+
+        <!-- Router can't -->
+        <p><a href="./pageTwo.html">Move Page</a></p>
+        <p><a href="/pageTwo">Move Page(Custom Router)</a></p>
         
         <!-- main.js : helpers Method Name -->
         <p>{{ hi }}</p>
