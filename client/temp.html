@@ -1,12 +1,25 @@
 <!-- 1. main.js : import -->
 <!-- 2. main.html : {{> myTemp}}-->
 <template name="myTemp">
-    <h2>Hi! Jamesss Dev!</h2>
-    <p><a href="./pageTwo.html">Move Page</a></p>
+    <div class="myTemp">
+        <h2>Hi! Jamesss Dev!</h2>
+        <p><a href="http://192.168.0.3:3000/pageTwo.html">Move Page</a></p>
+        
+        <!-- main.js : helpers Method Name -->
+        <p>{{ hi }}</p>
+        <div id="tempDom"></div>
+    </div>
     <script>
+        // DOM & BOM
         window.onload = () => {
             console.log('Temp');
             alert('Load ./temp.html')
+            const tempDom = document.getElementById('tempDom');
+            tempDom.innerText = "Click ME";
+            tempDom.style.padding = "4px";
+            tempDom.style.display = "inline-block";
+            tempDom.style.border = "2px solid blue";
+            tempDom.addEventListener('click', (e) => alert("HI?"), true);
         }
     </script>
 </template>
