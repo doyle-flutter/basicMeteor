@@ -12,20 +12,32 @@
   {{> myTemp}}
 
   <!-- Vue.js CDN & Meteor -->
-  <div id="app" v-on:click='aa'>Vue.js CDN?</div>
+  <!-- (Meteor - Blaze 위에서 Vue.js CDN으로 사용) -->
+  <div id="app" v-cloak v-on:click='aa' v-bind:style='styleObject'>Vue.js CDN?</div>
+  <!-- CDN(Doc) : https://kr.vuejs.org/v2/guide/installation.html -->
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script type="module">
     import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.esm.browser.js'
     const app = new Vue({
       el: '#app',
-      data:{v: 'value'},
+      data:{ 
+        v: 'value',
+        styleObject: {
+          padding: '20px',
+          border: '2px solid blue',
+          margin: '10px 0'
+        }
+      },
       methods: {
         aa: function(e){
-          console.log("AD");
+          console.log("VUE.JS Click Event!!!!");
+          alert("Vue.js - Click");
         }
       }
     });
-    app.$el.innerText = app.v;
+    // Blaze 적용으로 Vue 템플릿 사용 불가능
+    app.$el.innerHTML = `<h2>Vue.js</h2><p>vue.js - Data : ${app.v}</p>`;
+
   </script>
 </body>
 
