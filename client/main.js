@@ -19,11 +19,16 @@ FlowRouter.route('/lists', {
     
     // import './listsPage/listsMain.html'
     // or BlazeLayout
-    import lists from './listsPage/listsTem.html';
-    Template.lists.onCreated(function(){
-      console.log('listsCreate');
+    // import lists from './listsPage/listsTem.html';
+    // Template.lists.onCreated(function(){
+    //   console.log('listsCreate');
+    // })
+    // return BlazeLayout.render('lists',{title: "MyBlaze Temp"});
+    import react from './react/reactMain.html';
+    Template.react.onCreated(function(){
+      console.log('listsCreate REACT');
     })
-    return BlazeLayout.render('lists',{title: "MyBlaze Temp"});
+    return BlazeLayout.render('react');
   },
 });
 FlowRouter.route('/lists/:_id', {
@@ -67,6 +72,7 @@ class app{
 
 app.router({
   route : function(){
+    app.route('/reactMain', reactMain);
     app.route('/pageTwo', pageTwo);
     app.route('/', mainPage);
   },
@@ -126,5 +132,10 @@ function pageTwo(){
 
 function errPage(){
   import './err.html';
+  return;
+}
+
+function reactMain(){
+  import './react/reactMain.html';
   return;
 }

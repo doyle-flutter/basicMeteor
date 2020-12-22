@@ -19,11 +19,10 @@
       - [ ] : Code ...Ready
     - [ ] React & Meteor : Youtube ...Ready
       - [x] What is React ? : [Code-CDN](https://github.com/doyle-flutter/basicReact) / [Youtube-CDN](https://youtube.com/playlist?list=PLIKnSA4GMR4OgvanNtAfCTdrLQ-kc1SVu)
-      - [ ] CDN : Code ...Ready
       - [ ] NPX : Code ...Ready
     - [ ] Vue & Meteor : Youtube ...Ready
       - [ ] What is Vue ? : Code ...Ready / Youtube ...Ready
-      - [ ] CDN : Code ...Ready
+      - [x] CDN : Code ...Ready
   - APP : Youtube ...Ready
     - [ ] What is Cordova ? : Code ...Ready
     - [ ] Android & IOS : Code ...Ready
