@@ -21,7 +21,7 @@
       - [x] What is React ? : [Code-CDN](https://github.com/doyle-flutter/basicReact) / [Youtube-CDN](https://youtube.com/playlist?list=PLIKnSA4GMR4OgvanNtAfCTdrLQ-kc1SVu)
       - [ ] NPX : Code ...Ready
     - [ ] Vue & Meteor : Youtube ...Ready
-      - [ ] What is Vue ? : Code ...Ready / Youtube ...Ready
+      - [x] What is Vue ? : [Code](https://github.com/doyle-flutter/basicVue/blob/master/vue.html)
       - [x] CDN : [Code](https://github.com/doyle-flutter/basicMeteor/blob/main/client/main.js)
   - APP : Youtube ...Ready
     - [ ] What is Cordova ? : Code ...Ready
