@@ -19,16 +19,11 @@ FlowRouter.route('/lists', {
     
     // import './listsPage/listsMain.html'
     // or BlazeLayout
-    // import lists from './listsPage/listsTem.html';
-    // Template.lists.onCreated(function(){
-    //   console.log('listsCreate');
-    // })
-    // return BlazeLayout.render('lists',{title: "MyBlaze Temp"});
-    import react from './react/reactMain.html';
-    Template.react.onCreated(function(){
-      console.log('listsCreate REACT');
+    import lists from './listsPage/listsTem.html';
+    Template.lists.onCreated(function(){
+      console.log('listsCreate');
     })
-    return BlazeLayout.render('react');
+    return BlazeLayout.render('lists',{title: "MyBlaze Temp"});
   },
 });
 FlowRouter.route('/lists/:_id', {
