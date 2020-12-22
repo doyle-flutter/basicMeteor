@@ -13,7 +13,7 @@
       - [x] DOM & BOM : [Code](https://github.com/doyle-flutter/basicMeteor/blob/main/client/temp.html)
       - [x] Statement : [Code](https://github.com/doyle-flutter/basicMeteor/blob/main/client/main.js)
       - [x] Router - Custom : [Code](https://github.com/doyle-flutter/basicMeteor/blob/main/client/main.js)
-      - [ ] Router - Flow Router Package(CSR / SSR-not yet!) : Code ...준비중 
+      - [x] Router - Flow Router Package(CSR / SSR-not yet!) : [Code]()
     - [ ] Svelte & Meteor : Code ...준비중 / 영상 ...준비중
     - [ ] React & Meteor : Code ...준비중 / 영상 ...준비중
     - [ ] Vue & Meteor : Code ...준비중 / 영상 ...준비중
