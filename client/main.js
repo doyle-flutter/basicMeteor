@@ -65,13 +65,13 @@ class app{
   }
 }
 
-// app.router({
-//   route : function(){
-//     app.route('/pageTwo', pageTwo);
-//     app.route('/', mainPage);
-//   },
-//   err : errPage
-// });
+app.router({
+  route : function(){
+    app.route('/pageTwo', pageTwo);
+    app.route('/', mainPage);
+  },
+  err : errPage
+});
 
 
 function mainPage(){
