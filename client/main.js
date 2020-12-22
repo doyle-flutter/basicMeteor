@@ -1,7 +1,7 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
-// Blaze Router
+// (2) Blaze Router
 // > meteor add ostrio:flow-router-extra
 // > meteor add kadira:blaze-layout
 // (https://guide.meteor.com/routing.html#server-side)
@@ -40,7 +40,7 @@ FlowRouter.route('/lists/:_id', {
   }
 });
 
-// Custom Router
+// (1) Custom Router
 class app{
   static routerArr = [];
 
