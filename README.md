@@ -7,7 +7,7 @@
 - [ ] API(s) : Code ...Ready / Youtube ...Ready
 - [ ] Func(s) : Code ...Ready / Youtube ...Ready
 - [ ] Build & Deploy
-  - WEB - Galaxy Hosting
+  - WEB
     - [x] Basic Blaze / [Youtube](https://youtu.be/uItIGkh9HCQ)
       - [x] Template(HTML, CSS, JS) 분리 및 호출 : [Code](https://github.com/doyle-flutter/basicMeteor/blob/main/client/temp.html)
       - [x] DOM & BOM : [Code](https://github.com/doyle-flutter/basicMeteor/blob/main/client/temp.html)
@@ -29,4 +29,10 @@
   - DESKTOP : Youtube ...Ready
     - [x] What is Electron ? : [Code](https://github.com/doyle-flutter/myElectron) / [Youtube](https://youtube.com/playlist?list=PLIKnSA4GMR4Pf-R9B8SxicTBav8QVV8dk)
     - [ ] Electron & Meteor : Code ...Ready
+  - Deploy : Youtube ...Ready
+    - [ ] WEB
+      - [ ] Galaxy Hosting
+      - [ ] AWS
+    - [ ] APP
+    - [ ] Desktop
 - [ ] Demo : Code ...Ready / Youtube ...Ready
