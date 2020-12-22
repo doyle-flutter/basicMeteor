@@ -22,7 +22,7 @@
       - [ ] NPX : Code ...Ready
     - [ ] Vue & Meteor : Youtube ...Ready
       - [ ] What is Vue ? : Code ...Ready / Youtube ...Ready
-      - [x] CDN : Code ...Ready
+      - [x] CDN : [Code](https://github.com/doyle-flutter/basicMeteor/blob/main/client/main.js)
   - APP : Youtube ...Ready
     - [ ] What is Cordova ? : Code ...Ready
     - [ ] Android & IOS : Code ...Ready
